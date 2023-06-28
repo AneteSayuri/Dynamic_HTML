@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+    <%- include('partials/navbar') %>
+
+        <h1>Other Types of Pets...</h1>
+        <p>Exotic “pets” are usually maintained in environments that have no semblance to the animals’ natural habitats.
+        </p>
+        <p>Some develop stereotypic behaviors typically seen in highly stressed research animals and animals used in
+            entertainment.</p>
+        <p>These are not listed here:</p>
+        <ul>
+            <% for( let otherPet of otherPets ) { %>
+                <li>
+                    <%= otherPet %>
+                </li>
+                <% } %>
+        </ul>
+
+        <%- include('partials/footer') %>

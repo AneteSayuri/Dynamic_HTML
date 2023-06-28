@@ -1,0 +1,66 @@
+{
+    "cats": {
+        "name": "Cats",
+        "description": "A cat can be more than a cute and adorable pet. She can provide real therapy.",
+        "pets": [
+            {
+                "name": "Sebastian",
+                "age": "5 years",
+                "img": "https://preview.redd.it/show-me-the-first-picture-you-have-of-your-cat-vs-the-most-v0-urh6fkm5ci7b1.jpeg?width=1170&format=pjpg&auto=webp&v=enabled&s=f5409c639109ab971a9628f3a04e9455c8da3d6f"
+            },
+            {
+                "name": "Sadie",
+                "age": "3 years",
+                "img": "https://preview.redd.it/show-me-the-first-picture-you-have-of-your-cat-vs-the-most-v0-meo81pngai7b1.jpeg?width=3024&format=pjpg&auto=webp&v=enabled&s=8779157413b8b9bc34201e3890e36e6289730ce9"
+            }
+        ]
+    },
+    "kittens": {
+        "name": "Kitten",
+        "description": "Kittens usually adjust to new experiences and surroundings more easily than an adult or senior cats.",
+        "pets": [
+            {
+                "name": "Alex",
+                "age": "5 months",
+                "img": "https://preview.redd.it/show-me-the-first-picture-you-have-of-your-cat-vs-the-most-v0-8cfj4fl4ci7b1.jpeg?width=1170&format=pjpg&auto=webp&v=enabled&s=d1596a5648b4a19d98c17984c1bb0fecdad3e5ad"
+            }
+        ]
+    },
+    "dogs": {
+        "name": "Dogs",
+        "description": "Any dog owner knows that dogs love completely and have a greater capacity for love than many people.",
+        "pets": [
+            {
+                "name": "Moose",
+                "age": "1 year",
+                "img": "https://i.redd.it/be3tzegmh6f61.jpg"
+            },
+            {
+                "name": "Bentley",
+                "age": "2 years",
+                "img": "https://i.redd.it/im-12-today-v0-w02z0ezqhu3b1.jpg?s=9d94f6cc2c66c235148059bcb731f6e30ad5813a"
+            },
+            {
+                "name": "Scrabble",
+                "age": "7 years",
+                "img": "https://i.redd.it/o4u3d99uxgr61.jpg"
+            }
+        ]
+    },
+    "puppies": {
+        "name": "Puppies",
+        "description": "Keep in mind that the cost of a puppy could be higher than that of an adult dog, and those numbers don’t include unknowns like emergency veterinary care or variable costs like boarding, professional grooming or training.",
+        "pets": [
+            {
+                "name": "Sophie",
+                "age": "3 months",
+                "img": "https://i.redd.it/7bzkx1jyi4271.jpg"
+            },
+            {
+                "name": "Prince",
+                "age": "9 months",
+                "img": "https://i.redd.it/i94xqx54um671.jpg"
+            }
+        ]
+    }
+}
