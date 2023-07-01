@@ -5,6 +5,7 @@
 # Pet Shelter
 - Html built with Express, a framework for Node.js
 - A site to browse dogs, cats, puppies...
+- And also CRUD Comments in the site
 
 ## 🛠️ Tools
 Express, Node.js, Bootstrap and EJS.
@@ -14,6 +15,9 @@ Express, Node.js, Bootstrap and EJS.
 npm install
   npm i express
   npm i ejs
+  npm i method-override
+  npm i uuid
+
 node index.js
 
 # In the browser: http://localhost:3000
