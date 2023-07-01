@@ -1,0 +1,18 @@
+<%- include('comment_header') %>
+
+    <%- include('comment_navbar') %>
+
+        <h1>Leave a message if you wish!</h1>
+
+        <ul>
+            <% for(let c of comments) { %>
+                <li>
+                    <%= c.comment %> - <i>
+                            <%= c.username %>
+                        </i>
+                        <a href="/comments/<%= c.id %>">details</a>
+                </li>
+                <% } %>
+        </ul>
+
+        <a href="/comments/new">Post your comment here</a>

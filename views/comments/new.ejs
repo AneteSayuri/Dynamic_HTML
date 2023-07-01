@@ -1,0 +1,21 @@
+<%- include('comment_header') %>
+
+    <%- include('comment_navbar') %>
+
+        <h1>Leave a Comment here</h1>
+        <form action="/comments" method="post">
+            <section>
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" placeholder="username" name="username">
+            </section>
+
+            <section>
+                <label for="comment">Enter your comment:</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </section>
+
+            <button>Submit</button>
+        </form>
+
+        <a href="/comments">Back to Index</a>

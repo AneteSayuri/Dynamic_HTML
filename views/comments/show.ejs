@@ -1,0 +1,19 @@
+<%- include('comment_header') %>
+
+    <%- include('comment_navbar') %>
+
+        <p>Comment id: <%= comment.id %>
+        </p>
+
+        <h2>
+            '<%= comment.comment %>' - <i>
+                    <%=comment.username %>
+                </i>
+        </h2>
+
+        <form method="post" action="/comments/<%= comment.id %>?_method=DELETE">
+            <button>Delete</button>
+        </form>
+        <a href="/comments/<%= comment.id%>/edit">Edit</a>
+        <br>
+        <a href="/comments">Back to index</a>

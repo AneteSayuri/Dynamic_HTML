@@ -1,0 +1,11 @@
+<%- include('comment_header') %>
+
+    <%- include('comment_navbar') %>
+
+        <h1>You can edit this comment:</h1>
+
+        <form method="post" action="/comments/<%= comment.id %>?_method=PATCH">
+            <textarea name="comment" id="" cols="30" rows="10"><%= comment.comment %></textarea>
+            <br>
+            <button>Save</button>
+        </form>
